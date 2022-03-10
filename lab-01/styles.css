@@ -1,0 +1,33 @@
+body { background: CornflowerBlue;}
+
+nav {
+    background-color: #777777;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 15vw
+  }
+
+  nav a {
+    background-color: orange;
+    color: green;
+    padding: 0.25em 0.5em;
+    margin: 0.25em 0.5em;
+    font-family: sans-serif;
+    transition: background-color 0.2s;
+  }
+
+  nav a:hover {
+    background-color: yellow;
+  }
+
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: pink
+  }
+
+  p {
+    font-family: sans-serif;
+    background-color: purple
+  }

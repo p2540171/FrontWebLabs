@@ -1,0 +1,52 @@
+
+body { background: cornflowerblue; }
+
+header, main, section {
+  overflow: auto;
+}
+
+
+nav {
+  background-color: #777777;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+   /* float: right; moves it to right side of element*/
+}
+
+nav a {
+  background-color: orange;
+  color: green;
+  padding: 0.25em 0.5em;
+  margin: 0.25em 0.5em;
+  font-family: sans-serif;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: yellow;
+}
+
+main{
+  display: flex;
+  /*flex-direction: row-reverse;*/
+}
+
+section{
+  background-color: blanchedalmond;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: pink
+}
+
+p {
+  font-family: sans-serif;
+  background-color: purple;
+  padding: 5vw;
+}
+
+
+
